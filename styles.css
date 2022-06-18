@@ -1,0 +1,87 @@
+body{
+   
+    font-family: 'Dosis', monospace;
+}
+
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    height: 100px;
+    align-items: center;
+    margin: 0 1%;
+    
+
+}
+
+.nav-buttons {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    
+
+}
+
+.nav-buttons>div {
+    margin: 0 10px;
+    font-size: 1.5rem;
+
+
+}
+
+.main-container {
+    height: 60rem;
+    /*overlay*/
+    background-color: #9e89b8;
+    background-blend-mode:multiply ;
+
+    background-image: url(city.jpg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.main-container > div{
+    width: 33%;
+    margin: 5%;
+    color: #f2f2f2;
+}
+.main-container > div >h1{
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.main-container > div >h3{
+    font-size: 1.5rem;
+  
+}
+
+footer{
+    margin: 1%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    height: 50px;
+    align-items: center;
+    font-size: 1.25rem;
+}
+ion-icon{
+    font-size: 3rem;
+}
+
+.nav-buttons > div:hover{
+    cursor: pointer;
+    
+}
+
+.btn :hover{
+    cursor: pointer;  
+}
+
+ion-icon:hover{
+    cursor: pointer;
+}
+
+
